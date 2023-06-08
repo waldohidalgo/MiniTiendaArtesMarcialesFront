@@ -1,0 +1,165 @@
+.headerPrincipal .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.headerPrincipal .headerPrincipal-nav{
+    display: flex;
+}
+
+
+
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;  
+    align-items: center; 
+    width:75%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rodapePrincipal-contatoForm{
+    width:25%;    
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+.rodapePrincipal-navMap-list{
+    display:flex;
+    justify-content: space-between; 
+}
+
+.lista{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.contenidoPrincipal-cursos{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+.contenidoPrincipal-cursos-link{
+    width:22%;
+}
+
+
+.videoSobre .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videoSobre-sobre{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
+.videoSobre-button{
+    width: 100%;  
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink:2;
+}
+
+
+.anchosmapacurso{
+
+    width:25%
+}
+/*Responsive*/
+@media(max-width:767px){
+.headerPrincipal-nav-link-app{
+    order:-1;
+}
+
+.headerPrincipal .container{
+    flex-direction: column;
+}
+
+.headerPrincipal .headerPrincipal-nav{
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+
+}
+
+.headerPrincipal-nav-link{
+    width:100%;
+    border-radius: 5px;
+    border: 1px solid #9799A6;
+    text-align: center;
+}
+
+
+.contenidoPrincipal-cursos{
+    flex-direction: column;
+}
+
+.contenidoPrincipal-cursos-link{
+    width:100%
+}
+
+.videoSobre .container{
+    flex-direction: column;
+    align-items: center;
+}
+.videoSobre-sobre {
+    width: 100%;
+	margin-bottom: 1.5em;
+}
+
+
+.rodapePrincipal-navMap-list{
+     flex-direction: column;
+
+
+}
+
+.rodapePrincipal-patrocinadores .container{
+    flex-direction: column;
+}
+
+.rodapePrincipal-patrocinadores-list,.rodapePrincipal-contatoForm{
+    width:100%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+justify-content: center;
+}
+
+.anchosmapacurso{
+    width:100%;
+
+}
+.rodapePrincipal-navMap-list{
+align-items: center;
+
+}
+
+.lista{
+    align-items: center;
+}
+
+
+}
